@@ -13,4 +13,4 @@ Industrial Gate,13/11/2026 08:00,1201,180,91,ug/m3,sensor check
 Industrial Gate,14/11/2026 08:00,--,175,86,ug/m3,offline
 Industrial Gate,15/11/2026 08:00,--,--,--,ug/m3,offline
 Industrial Gate,16/11/2026 08:00,--,--,--,ug/m3,offline`;
-export const previous=sample.replaceAll('124,190','85,132').replaceAll('140,210','92,145').replaceAll('72,112','58,92');
+export const previous=sample.replace(/124,190/g,'85,132').replace(/140,210/g,'92,145').replace(/72,112/g,'58,92');
